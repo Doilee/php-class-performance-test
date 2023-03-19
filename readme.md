@@ -1,6 +1,6 @@
 This was a little experiment for me to get more comfortable using vim and learn a few things:
 
-The code is not only (subjectively) less clean, it is also less performant.
+The code is not only a lot less concise, it is also less performant.
 
 Benchmarks on my Machine (Macbook air M1 16GB):
 
