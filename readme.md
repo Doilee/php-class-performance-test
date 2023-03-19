@@ -6,4 +6,4 @@ Benchmarks on my Machine (Macbook air M1 16GB):
 
 | Procedural | One Class | "Extreme" OOP |
 | --- | --- | --- |
-| 0.17s | 0.77s | 2.22s |
+| 0.22s | 0.76s | 2.23s |
