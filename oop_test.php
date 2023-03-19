@@ -12,13 +12,17 @@ class Test {
 	public function divide() {
 		$this->number = $this->number / 2.66;
 	}
+	
+	public function increment() {
+		$this->number++;
+	}
 
 	public function pushToHistory() {
 		$this->history[] = $this->number;
 	}
 
 	public function getMiddleOfHistory() {
-		return $this->history[500_000];
+		return $this->history[5_000_000];
 	}
 }
 
@@ -29,6 +33,7 @@ $test = new Test();
 for ($i=0;$i < 10_000_000;$i++) {
 	$test->multiply();
 	$test->divide();
+	$test->increment();
 
 	$test->pushToHistory();
 }

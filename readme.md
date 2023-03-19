@@ -5,5 +5,5 @@ The code is not only (subjectively) less clean, it is also less performant.
 Benchmarks on my Machine (Macbook air M1 16GB):
 
 | Procedural | One Class | "Extreme" OOP |
-| --- | --- | --- |
-| 0.22s | 0.76s | 2.23s |
+|------------|-----------|---------------|
+| 0.27s      | 0.96s     | 4.08s         |
